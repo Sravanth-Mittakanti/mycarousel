@@ -1,0 +1,41 @@
+.carousel-container {
+    /* position: relative; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin-right: 50px ;
+  }
+  
+  .carousel-card {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .carousel-card img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    top: 50%;
+    /* transform: translateY(-50%); */
+    z-index: 1;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: red;
+    width: 100px;
+  }
+
+  img {
+    border-radius: 15%;
+  }
+  
